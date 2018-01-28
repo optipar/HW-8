@@ -1,0 +1,21 @@
+@media (max-width: 480px) {
+  .wrapper {
+    min-width: 320px;
+    width: 80%;
+    margin-right: 0;
+  }
+
+  .gallery {
+    min-width: 320px;
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .gallery > div > img {
+    width: 100%;
+  }
+
+  .picture_7, .picture_8, .picture_9 {
+    display: none;
+  }
+}

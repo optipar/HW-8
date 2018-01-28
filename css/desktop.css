@@ -1,0 +1,360 @@
+body {
+  background-image: url('../images/Background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+li, .submenu_item {
+  font-family: 'Pathway Gothic One', Arial, sans-serif;
+}
+
+header > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1024px;
+  padding: 92px 70px 94px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 28px;
+}
+
+.menu_item {
+  position: relative;
+}
+
+.submenu {
+  position: absolute;
+  display: none;
+  border-radius: 10%;
+  width: 71px;
+  height: 93px;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  background-color: #fff;
+  right: -9px;
+}
+
+.submenu::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  top: -5px;
+  left: 30px;
+  border-color: transparent transparent #fff transparent;
+}
+
+.submenu_item {
+  display: inline-block;
+  color:#6b7488;
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1px;
+}
+
+.submenu a {
+  line-height: 1px;
+  color: #6b7488;
+}
+
+.menu_item:hover >.submenu {
+  display: block;
+  color: #263555;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo {
+  width: 136px;
+  height: 136px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  font-family: 'Dorsa', Arial, sans-serif;
+  font-size: 59px;
+  font-weight: 200;
+  margin: 0;
+  text-align: center;
+  line-height: 136px;
+}
+
+h2 {
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+}
+
+h2, h3, ul, blockquote, .logo {
+  color: #263555;
+  font-weight: 200;
+}
+
+.title {
+  padding: 90px 63px 40px;
+}
+
+.wrapper {
+  display: flex;
+  width: 90%;
+  max-width: 1023px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-content: space-around;
+  background-color: #fff;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-bottom: 138px;
+}
+
+.picture_1, .picture_2, .picture_3, .picture_4, .picture_5, .picture_6,
+.picture_7, .picture_8, .picture_9 {
+  position: relative;
+}
+
+.picture_1:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_2:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_3:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_4:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_5:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_6:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_7:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_8:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.picture_9:hover::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    background-color: #000;
+    background-image: url(../images/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.bottom_menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #30455b;
+  height: 128px;
+  width: 100%;
+  margin: 0;
+}
+
+footer a {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.addition {
+  /*display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;*/
+  /*height: 50%;*/
+}
+
+.addition li {
+  margin: 0;
+}
+
+.telephone, .adress {
+  color: #fff;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  padding-top: 12px;
+}
+
+.bottom_menu2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.policy {
+  color: #fff;
+  font-size: 12px;
+}
+
+.botton-to-top a {
+  position: fixed;
+  display: inline-block;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #38afe5;
+  bottom: 30px;
+  right: 30px;
+}
+
+.botton-to-top a::before {
+  content: '\2191';
+  position: absolute;
+  bottom: 9px;
+  left: 11px;
+  color: #fff;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  position: relative;
+  list-style: none;
+}
+
+.social-media-list a {
+  display: block;
+  width: 50px;
+  height: 49px;
+  border-radius: 50%;
+  background-image: url('../images/About_1024-Recovered-Recovered.jpg');
+}
+
+.social-media-list .twitter {
+  background-position: -24px -31px;
+}
+
+.social-media-list .facebook {
+  background-position: -78px -31px;
+}
+
+.social-media-list .g-plus {
+  background-position: -130px -31px;
+}
+
+.social-media-list .linkedin {
+  background-position: -183px -31px;
+}

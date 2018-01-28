@@ -1,0 +1,47 @@
+@media screen and (max-width: 1023px){
+  .addition {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 56%;
+  }
+
+  .addition li {
+    font-size: 16px;
+  }
+
+  .telephone, .adress {
+    font-size: 10px;
+  }
+
+  .social-media-list {
+    margin-left: 81px;
+    margin-top: 20px;
+  }
+
+  .social-media-list a {
+    width: 42px;
+    height: 42px;
+  }
+
+  .social-media-list .twitter {
+    background-position: -30px 63px;
+  }
+
+  .social-media-list .facebook {
+    background-position: -82px -36px;
+  }
+
+  .social-media-list .g-plus {
+    background-position: -133px -34px;
+  }
+
+  .social-media-list .linkedin {
+    background-position: -185px -35px;
+  }
+
+  .policy {
+    font-size: 8px;
+    margin-top: 20px;
+    margin-left: 64px;
+  }
+}
